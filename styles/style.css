@@ -29,7 +29,7 @@ span, a {
   color: #FF9900;
 }
 
-p {
+p, footer {
   color: #7D7987;
   font-size: 14px;
   line-height: 28px;
@@ -38,4 +38,11 @@ p {
 /* pegue o a que anterior a ele tenha um a e aplique uma margem do lado esquerdo de 28px */
 #footer a + a {
   margin-left: 28px;
+}
+
+.line {
+  width: 560px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #ECEFF2;
 }
